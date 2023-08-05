@@ -1,62 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina web</title>
+    <title>Mi portafolio web</title>
 </head>
 
+<style>
+    * {
+        background-color: #111827;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
 <body>
-    <a href="./galeria.html" target="_blank">Galeria de redes sociales</a>
-    <h1>Mi primer titulo</h1>
-    <h2>Mi primer titulo</h2>
-    <h3>Mi primer titulo</h3>
-    <h4>Mi primer titulo</h4>
-    <h5>Mi primer titulo</h5>
-    <h6>Mi primer titulo</h6>
-    <p><strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur amet tenetur, repellat vitae aspernatur
-        dolores ratione modi similique saepe minima inventore aperiam quasi ab aliquam vel, ipsam quam porro voluptate.
-    </strong></p>
-    <img src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2021/02/jujutsu-kaisen.jpg"
-    alt="Jujutsu Kaisen"
-    width="200"
-    height="300">
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Habilidades</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
 
-    <p><img src="./img/istockphoto-1200216894-612x612.jpg" alt="Music Studio"
-        width="200" height="200"></p>
+    <section>
+        <div>
+            <p>👋 Hola soy</p>
+            <h1>Gadiel</h1>
+            <p>Desarrollador web</p>
+        </div>
+        <div>
+            <img src="./img/landing/coding.svg">
+        </div>
+    </section>
 
-    <!--Contenedor-->
-    <div style="border: solid;">
-        <h1 style="border: solid red;">Mi primer div</h1>
-        <p style="border: solid blue;">esto es un parrafo</p>
+    <section>
+        <h2>Proyectos</h2>
+        <div>
+            <div>
+                <img src="./img/projects/card_preview_desktop.svg" alt="">
+                <img src="./img/projects/card_preview_desktop_1.svg" alt="">
+            </div>
+            <div>    
+                <img src="./img/projects/card_preview_desktop_2.svg" alt="">
+                <img src="./img/projects/card_top_desktop.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Habilidades</h2>
+        <div>
+            <div>
+                <span><img src="./img/languages/docker.svg">Docker</span>
+                <span><img src="./img/languages/html.svg">HTML-5</span>
+                <span><img src="./img/languages/typescript.svg">TypeScript</span>
+                <span><img src="./img/languages/mongodb.svg">MongoDB</span>
+            </div>
+            <div>
+                <span><img src="./img/languages/git.svg">Git</span>
+                <span><img src="./img/languages/css.svg">CSS 3</span>
+                <span><img src="./img/languages/reactjs.svg">React</span>
+                <span><img src="./img/languages/mssql.svg">MSSQL</span>
+            </div>
+            <div>
+                <span><img src="./img/languages/figma.svg">Figma</span>
+                <span><img src="./img/languages/tailwind.svg">TailwindCSS</span>
+                <span><img src="./img/languages/vue.svg">Vue</span>
+                <span><img src="./img/languages/pgsql.svg">PostgreeSQL</span>
+            </div>
+            <div>
+                <span><img src="./img/languages/node-js.svg">Node.js</span>
+                <span><img src="./img/languages/javascript.svg">JavaScript</span>
+                <span><img src="./img/languages/nestjs.svg">Nest.js</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        <div>
+            <img src="./img/contacts/linkedin.svg">
+            <img src="./img/contacts/gitHub.svg">
+            <img src="./img/contacts/outlook.svg">
+        </div>
+    </section>
     
-        <div>
-            <img style="border: solid green;" src="./img/istockphoto-1200216894-612x612.jpg" alt="" width="100">
-            <img style="border: solid blueviolet;" src="./img/istockphoto-1200216894-612x612.jpg" alt="" width="100">
-        </div>
-    </div>
-
-    <section>
-        <div>
-            <a href="https://welcome.getonbrd.com/"
-            style="border: solid"
-            target="_blank">
-
-            <img src="https://static.vecteezy.com/system/resources/previews/007/128/346/non_2x/house-key-icon-vector.jpg"
-            alt=""
-            width="20">Bolsa de trabajo
-            </a>
-        </div>
-    </section>
-
-    <!--Galeria de redes sociales-->
-    <section>
-        <div>
-
-        </div>
-    </section>
-
 </body>
-
 </html>
