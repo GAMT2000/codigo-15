@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 15px;
+    border-radius: 18px;
+    background-color: hsl(216, 50%, 16%);
+    width: 25%;
+}
+
+.big-img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.title {
+    color: white;
+    margin-top: 15px;
+}
+
+.description {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.logo {
+    justify-content: space-between;
+    border: solid;
+}
+
+.logo first-logo {
+    color: hsl(178, 100%, 50%);
+    justify-content: flex-start;
+}
+

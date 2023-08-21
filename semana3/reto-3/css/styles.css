@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "ubuntu", sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    background-color: hsl(231, 100%, 99%);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.radius-md {
+    border-radius: 20px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-25 {
+    padding: 25px;
+}
+
+.container_box {
+    background-color: white;
+    height: 70vh;
+    width: 70%;
+}
+
+.container_box div:first-child {
+    background: url(../assets/images/bg-sidebar-desktop.svg);
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: solid red;
+}
+
+div {
+    border: solid;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
