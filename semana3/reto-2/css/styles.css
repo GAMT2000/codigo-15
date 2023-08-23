@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: "Outfit", sans-serif;
+}
+
 .container {
     background-color: hsl(217, 54%, 11%);
     height: 100vh;
@@ -11,10 +16,10 @@
 }
 
 .box {
-    padding: 15px;
+    padding: 25px;
     border-radius: 18px;
     background-color: hsl(216, 50%, 16%);
-    width: 25%;
+    width: 20vw;
 }
 
 .big-img {
@@ -34,12 +39,55 @@
 }
 
 .logo {
+    display: flex;
     justify-content: space-between;
-    border: solid;
+    align-items: center;
 }
 
-.logo first-logo {
+.first-logo {
     color: hsl(178, 100%, 50%);
-    justify-content: flex-start;
+    align-items: center;
+    display: flex;
 }
 
+.first-logo img {
+    margin-right: 5px;
+}
+
+.clock-logo {
+    color: hsl(215, 51%, 70%);
+    align-items: center;
+    display: flex;
+}
+
+.clock-logo img {
+    margin-right: 5px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.profile {
+    display: flex;
+}
+
+.profile-logo {
+    align-items: center;
+    display: flex;
+    color: hsl(215, 51%, 70%);
+}
+
+.profile-logo img {
+    width: 30px;
+    margin-right: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.name {
+    color: white;
+    margin-left: 5px;
+}
