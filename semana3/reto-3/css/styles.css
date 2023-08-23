@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    background-color: hsl(231, 100%, 99%);
+    background-color: hsl(231, 11%, 63%);
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -30,16 +30,175 @@ body {
     padding: 25px;
 }
 
+.text-white {
+    color: white;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 .container_box {
     background-color: white;
     height: 70vh;
-    width: 70%;
+    width: 50%;
+    gap: 60px;
 }
 
-.container_box div:first-child {
+.container_box > div:first-child {
     background: url(../assets/images/bg-sidebar-desktop.svg);
     width: 25%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+.step_container {
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.step_circle {
+    border: solid white 1px;
+    padding: 9px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.step_circle:hover {
+    color: black;
+    background-color: hsl(206, 94%, 87%);
+}
+
+.step_title {
+    color: hsl(217, 100%, 97%);
+    font-size: 13px;
+}
+
+.step_description {
+    font-weight: bold;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.title_info {
+    font-size: 36px;
+}
+
+.description_info {
+    margin-top: 10px;
+    color: hsl(229, 24%, 87%);
+}
+
+.container_input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.container_input > input {
+    font-family: "Ubuntu", sans-serif;
+    padding: 12.5px;
+    font-size: 16px;
+    border: solid 1px hsl(229, 24%, 87%);
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+.container_input > span {
+    color: hsl(213, 96%, 18%);
+}
+
+.container_input > input:hover {
+    border: solid 1px hsl(243, 100%, 62%);
+}
+
+.container_button {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.button_info {
+    border: none;
+    background-color: hsl(213, 96%, 18%);
+    padding: 15px 25px;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+    .p-25 {
+      padding: 0;
+    }
+
+    .p-20 {
+        padding: 0;
+    }
+  
+    .radius-md {
+      border-radius: 0;
+    }
+  
+    .container {
+      height: auto;
+    }
+  
+    .container_box {
+      flex-direction: column;
+      width: 100%;
+      border-radius: 0;
+      gap: 0;
+      background-color: hsl(229, 24%, 87%);
+      height: 100vh;
+    }
+  
+    .container_box > div:first-child {
+      width: 100%;
+      background: url("../assets/images/bg-sidebar-mobile.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .step_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+  
+    .step_circle {
+      width: 10px;
+      height: 10px;
+      display: flex;
+      align-items: center;
+    }
+  
+    .step_title {
+      display: none;
+    }
+  
+    .step_description {
+      display: none;
+    }
+
+    .container_info {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        margin-top: -30px;
+        background-color: white;
+        border-radius: 16px;
+    }
+  }

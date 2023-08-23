@@ -10,8 +10,70 @@
 <body>
     <section class="container flex">
         <div class="container_box flex radius-md p-25">
-            <div class="radius-md p-20">Izquierda</div>
-            <div class="p-20">Derecha</div>
+            <div class="radius-md p-20 steps_container">
+                <div class="flex step_container text-white uppercase">
+                    <div>
+                        <span class="step_circle">1</span>
+                    </div>
+                    <div>
+                        <p class="step_title">step 1</p>
+                        <p class="step_description">your info</p>
+                    </div>
+                </div>
+                
+                <div class="flex step_container text-white uppercase">
+                    <div>
+                        <span class="step_circle">2</span>
+                    </div>
+                    <div>
+                        <p class="step_title">step 2</p>
+                        <p class="step_description">select plan</p>
+                    </div>
+                </div>
+
+                <div class="flex step_container text-white uppercase">
+                    <div>
+                        <span class="step_circle">3</span>
+                    </div>
+                    <div>
+                        <p class="step_title">step 3</p>
+                        <p class="step_description">add-ons</p>
+                    </div>
+                </div>
+
+                <div class="flex step_container text-white uppercase">
+                    <div>
+                        <span class="step_circle">4</span>
+                    </div>
+                    <div>
+                        <p class="step_title">step 4</p>
+                        <p class="step_description">summary</p>
+                    </div>
+                </div>
+            </div>        
+            <div class="p-20">
+                <div class="container_info">
+                    <h1 class="title_info">Personal info</h1>
+                    <p class="description_info">Please provide your name, email address and phone number</p>
+                    <form action="">
+                        <label for="" class="container_input">
+                            <span>Name</span>
+                            <input type="text" placeholder="Gadiel Vizcardo">
+                        </label>
+                        <label for="" class="container_input">
+                            <span>Email Adress</span>
+                            <input type="email" placeholder="gadielvizcardo23@">
+                        </label>
+                        <label for="" class="container_input">
+                            <span>Phone Number</span>
+                            <input type="tel" placeholder="999999999">
+                        </label>
+                        <div class="container_button">
+                            <button class="button_info text-white">Next Step</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
