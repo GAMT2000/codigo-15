@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Alata", sans-serif;
+}
+
+.principal_section {
+    background: url(../assets/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    color: white;
+}
+
+.hero > div {
+    padding: 30px;
+    width: 30%;
+    border: solid white;
+    margin-top: 100px;
+    word-wrap: break-word;
+}
+
+.hero > div > h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 60px;
+
+}
+
+.article_section {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+}
+
+.article_container {
+    align-self: end;
+    width: 25%;
+    margin-left: -150px;
+    background-color: #ffff;
+    padding: 60px 60px 0 60px;
+}
+
+.article_container h2 {
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    padding-bottom: 40px;
+}
+
+.creations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto -25px;
+    width: 91%;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+}
+
+.creations h2 {
+    letter-spacing: 3px;
+}
+
+.creations p {
+    border: solid;
+    padding: 8px;
+    width: 100px;
+    border-width: 1px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 70vh 70vh;
+    padding: 60px;
+}
+
+.gallery div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: end;
+    margin: 20px;
+}
+
+.gallery div h3 {
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    width: 20%;
+}
+
+.footer_container {
+    background-color: black;
+    height: 50px;
+    padding: 50px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.div_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_icons img {
+
+    margin-right: 10px;
+}
+
+.nav_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* .social_icon {
+    display: flex;
+    border: solid brown;
+    justify-content: 
+}
+
+.footer_links {
+    border: solid yellow;
+}
+
+.social_links {
+    display: flex; 
+    justify-content: flex-end;
+    border: solid green;
+}
+
+.social_links img {
+    margin-right: 20px;
+    justify-content: end;
+}
+
+.nav_footer {
+    display: flex;
+    margin-top: 25px;
+    border: solid red; */
+
+
+
+
+.footer_container p {
+   color: hsl(0, 0%, 41%);
+   margin-right: 10px;
+   font-family: "Alata", sans-serif;
+}
+
+.earth {
+    background: url(../assets/desktop/image-deep-earth.jpg);
+}
+
+.arcade {
+    background: url(../assets/desktop/image-night-arcade.jpg);
+}
+
+.soccer {
+    background: url(../assets/desktop/image-soccer-team.jpg);
+}
+
+.race {
+    background: url(../assets/desktop/image-grid.jpg);
+}
+
+.road {
+    background: url(../assets/desktop/image-from-above.jpg);
+}
+
+.borealis {
+    background: url(../assets/desktop/image-pocket-borealis.jpg);
+}
+
+.curiosity {
+    background: url(../assets/desktop/image-curiosity.jpg);
+}
+
+.fisheye {
+    background: url(../assets/desktop/image-fisheye.jpg);
+}
