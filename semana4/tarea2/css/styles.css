@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+}
+
+.principal__section {
+    background: url(../assets/desktop/image-header.jpg);
+    padding: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__first {
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 70px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Fraunces", sans-serif;
+    color: white;
+    margin-top: 100px;
+}
+
+.logo h1 {
+    letter-spacing: 10px;
+    font-size: 100px;
+    font-weight: auto;
+}
+
+.logo img {
+    margin-top: 140px;
+}
+
+.learn__section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.learn__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.background-box {
+    background-color: rgb(250, 245, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.h2-box {
+    font-family: "Fraunces", sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.p-box {
+    font-size: 18px;
+    color: hsl(210, 4%, 67%);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.h3-box {
+    font-family: "Fraunces", sans-serif;
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+.box__words {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* .box__words h2 {
+    font-family: "Fraunces", sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.box__words p {
+    font-size: 18px;
+    color: hsl(210, 4%, 67%);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.box__words h3 {
+    font-family: "Fraunces", sans-serif;
+    font-size: 15px;
+    padding: 0 5px;
+} */
+
+.learn2  {
+    background: url(../assets/desktop/image-transform.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.learn3 {
+    background: url(../assets/desktop/image-stand-out.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.learn5 {
+    background: url(../assets/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+
