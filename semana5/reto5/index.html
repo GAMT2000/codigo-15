@@ -19,24 +19,32 @@
           <img src="./assets/images/logo.svg" alt="" />
         </div>
         <div>
-          <ul class="d-flex list-unstyled gap-4">
-            <li>Home</li>
-            <li>New</li>
-            <li>Popular</li>
-            <li>Trending</li>
-            <li>Categories</li>
+          <ul class="d-sm-flex list-unstyled gap-4 d-none ">
+            <li class="icon-link-hover-red">Home</li>
+            <li class="icon-link-hover-red">New</li>
+            <li class="icon-link-hover-red">Popular</li>
+            <li class="icon-link-hover-red">Trending</li>
+            <li class="icon-link-hover-red">Categories</li>
           </ul>
+          <div class="d-sm-none">
+            <img src="./assets/images/icon-menu.svg" alt="">
+          </div>
         </div>
       </nav>
 
       <section class="row mt-5">
         <div class="col-md-8 col-lg-9">
-          <div>
+          <div class="d-sm-flex d-none">
             <img
               width="100%"
               src="./assets/images/image-web-3-desktop.jpg"
               alt=""
             />
+          </div>
+          <div class="d-sm-none">
+            <img 
+            width="100%"  
+            src="./assets/images/image-web-3-mobile.jpg" alt="">
           </div>
           <div class="row mt-4">
             <div class="col-md-6">
@@ -50,20 +58,20 @@
                 But is it really fulfilling its promise?
                 </small>
               </p>
-              <button class="btn text-uppercase text-white bg-primary px-4 py-2 rounded-0 letter-3">
+              <button class="btn text-uppercase text-white bg-danger px-4 py-2 rounded-0 letter-3 mt-4 icon-link-hover-btn mb-5">
                     <small>Read more</small></button>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-lg-3">
           <div class="bg-primary p-3 text-white">
-            <h1 class="text-warning">New</h1>
-            <h5 class="mt-4">Hydrogen VS Electric Cars</h5>
+            <h1 class="text-warning fw-semibold">New</h1>
+            <h5 class="mt-4 icon-link-hover-orange fw-semibold">Hydrogen VS Electric Cars</h5>
             <p class="text-md">
               <small> hydrogen-fueled cars ever catch up to EVs?</small>
             </p>
             <hr />
-            <h5 class="mt-4">The Downsides of Al Artistry</h5>
+            <h5 class="mt-4 icon-link-hover icon-link-hover-orange fw-semibold">The Downsides of Al Artistry</h5>
             <p>
               <small>
                 What are the possible adverse effects of on-demand Al image
@@ -71,7 +79,7 @@
               >
             </p>
             <hr />
-            <h5 class="mt-4">Is VC Funding Drying Up?</h5>
+            <h5 class="mt-4 icon-link-hover-orange fw-semibold">Is VC Funding Drying Up?</h5>
             <p>
               <small>
                 Private funding by VC firms is down 50% YOY. We take a look at
@@ -81,35 +89,35 @@
         </div>
       </section>
 
-      <section class="row mt-5 justify-content-between">
+      <section class="row mt-5 mb-5 justify-content-between">
         <div class="col-md-4 row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-4">
                 <img width="100%" src="./assets/images/image-retro-pcs.jpg" alt="">
             </div>
-            <div class="col-md-8">
-                <h5>01</h5>
-                <h5>Reviving Retro PCs</h5>
-                <p>What happens when old PCs are given modern upgrades</p>
+            <div class="col-md-8 col-8">
+                <h5 class="text-body-tertiary fw-bold">01</h5>
+                <h5 class="fw-bold icon-link-hover-red">Reviving Retro PCs</h5>
+                <p class="text-body-tertiary"><small>What happens when old PCs are given modern upgrades</small></p>
             </div>
         </div>
             <div class="col-md-4 row">
-              <div class="col-md-4">
-                  <img width="100%" src="./assets/images/image-retro-pcs.jpg" alt="">
+              <div class="col-md-4 col-4">
+                  <img width="100%" src="./assets/images/image-top-laptops.jpg" alt="">
               </div>
-              <div class="col-md-8">
-                  <h5>01</h5>
-                  <h5>Reviving Retro PCs</h5>
-                  <p>What happens when old PCs are given modern upgrades</p>
+              <div class="col-md-8 col-8">
+                  <h5 class="text-body-tertiary fw-bold">02</h5>
+                  <h5 class="fw-bold icon-link-hover-red">Top 10 Laptops of 2022</h5>
+                  <p class="text-body-tertiary"><small>Our best picks for various needs and budgets</small></p>
               </div>
         </div>
           <div class="col-md-4 row">
-              <div class="col-md-4">
-                  <img width="100%" src="./assets/images/image-retro-pcs.jpg" alt="">
+              <div class="col-md-4 col-4">
+                  <img width="100%" src="./assets/images/image-gaming-growth.jpg" alt="">
               </div>
-              <div class="col-md-8">
-                  <h5>01</h5>
-                  <h5>Reviving Retro PCs</h5>
-                  <p>What happens when old PCs are given modern upgrades</p>
+              <div class="col-md-8 col-8">
+                  <h5 class="text-body-tertiary fw-bold">03</h5>
+                  <h5 class="fw-bold icon-link-hover-red">The Growth of Gaming</h5>
+                  <p class="text-body-tertiary"><small>How the pandemic has sparked fresh oportunities.</small></p>
               </div>
         </div>
       </section>

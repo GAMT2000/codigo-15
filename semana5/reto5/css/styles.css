@@ -32,3 +32,11 @@ body {
 .letter-3 {
     letter-spacing: 3px;
 }
+
+.icon-link-hover-red:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.icon-link-hover-orange:hover {
+    color: hsl(35, 77%, 62%);
+}
