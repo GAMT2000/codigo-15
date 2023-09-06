@@ -4,29 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fonts.css">
 </head>
 <body>
-    <main>
-        <section>
-            <div>
-                <!-- <img src="./assets/images/illustration-sign-up-mobile.svg" alt=""> -->
-                <h1>hello world</h1>
-            </div>
-        </section>
+    <main class="bg-slate-800 h-screen flex">
+        <div class="container md:w-2/4 bg-white m-auto md:rounded-3xl md:p-5 md:h-[70%] md:flex flex-col-md gap-5">
+            <section>
+                <div>
+                    <img class="sm:hidden" src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+                </div>
+            </section>
+                
+            <section class="m-6 md:my-auto md:w-[47%]">
+                <div class="md:mb-8">
+                    <h1 class="font-bold text-4xl md:text-6xl mb-5">Stay updated!</h1>
+                    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                </div>
+                <div class="flex mb-3 gap-4 mt-5">
+                    <img class="-mt-5 md:-mb-5" src="./assets/images/icon-list.svg" alt="">
+                    <p>Product discovery and building what matters</p>
+                </div>
+                <div class="flex mb-3 gap-4">
+                    <img class="-mt-5 md:-mb-5" src="./assets/images/icon-list.svg" alt="">
+                    <p>Measuring to ensure updates are a success</p>
+                </div>
+                <div class="flex gap-4 mb-9">
+                    <img  src="./assets/images/icon-list.svg" alt="">
+                    <p>And much more!</p>
+                </div>
+                <form class="flex flex-col">
+                    <label class="font-bold text-sm mb-2">Email address</label>
+                    <input class="border border-slate-300 rounded-lg p-4" type="email" placeholder="email@company.com">
+                    <button class="mt-5 bg-slate-900 text-white p-4 border rounded-lg">Subscribe to monthly newsletter</button>
+                </form>
+            </section>
 
-        <section>
-
-        </section>
-
-        <section>
-
-        </section>
+            <section>
+                <img class="hidden md:flex h-[100%]" src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+            </section>
+        </div>
     </main>
 
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>
