@@ -273,3 +273,35 @@ const people = [
   
   console.log(filtroPeople)
   console.log(busqueda)
+
+
+//findIndex
+const nombres6 = ["Pepe", "Juan", "Maria", "Mercedez", "Juan", "Maria"]
+
+const busqueda1 = nombres.findIndex((nombre) => nombre === "Carlos")
+const busqueda2 = nombres.find((nombre) => nombre === "Carlos")
+
+console.log(busqueda1)
+console.log(busqueda2)
+
+//every = &&
+let par = true
+
+const numbers = [2, 4, 6, 8, 10]
+// Si todos los numeros son pares
+for (const number of numbers) {
+  if (number % 2 !== 0) {
+    par = false
+  } 
+}
+
+console.log("resultado", par)
+const todoEsPar = numbers.every((number) => number % 2 === 0)
+console.log("resultado con every",todoEsPar)
+
+//some = ||
+const numbers1 = [2, 3, 5, 7, 9]
+
+const respuesta = numbers1.some((number) => number % 2 === 0)
+
+console.log("respuesta", respuesta)
