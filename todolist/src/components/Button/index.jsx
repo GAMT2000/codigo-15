@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function Button({
   text,
   type = "button",
@@ -16,6 +17,7 @@ export default function Button({
     <>
       <button
         type={type}
+        aria-label={text}
         className={`px-2 py-3 rounded-r border ${colors[variant]} ${className}`}
       >
         {text}
